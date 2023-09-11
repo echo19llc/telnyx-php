@@ -14,6 +14,7 @@ abstract class ApiErrorException extends \Exception implements ExceptionInterfac
     protected $jsonBody;
     protected $requestId;
     protected $telnyxCode;
+	protected $errors;
 
     /**
      * Creates a new API error exception.
